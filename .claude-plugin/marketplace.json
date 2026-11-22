@@ -1,0 +1,20 @@
+{
+  "name": "levijubb-skills",
+  "owner": {
+    "name": "Levi Jubb"
+  },
+  "metadata": {
+    "description": "Agent skills by Levi Jubb"
+  },
+  "plugins": [
+    {
+      "name": "ui",
+      "description": "Anti-AI UI slop rules for pages, components, marketing screens, dashboards and comps",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/ui"
+      ]
+    }
+  ]
+}
