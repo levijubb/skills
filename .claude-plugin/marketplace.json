@@ -8,12 +8,12 @@
   },
   "plugins": [
     {
-      "name": "ui",
+      "name": "ui-degreaser",
       "description": "Anti-AI UI slop rules for pages, components, marketing screens, dashboards and comps",
       "source": "./",
       "strict": false,
       "skills": [
-        "./skills/ui"
+        "./skills/ui-degreaser"
       ]
     }
   ]
