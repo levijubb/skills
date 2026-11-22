@@ -48,7 +48,7 @@ Add a plugin entry to `.claude-plugin/marketplace.json` so it installs through C
 }
 ```
 
-Then add a row to the skills table in the README.
+Then add a line for it to the skills list in the README.
 
 ## Validate
 
@@ -56,7 +56,7 @@ Then add a row to the skills table in the README.
 node scripts/validate-skills.mjs
 ```
 
-This checks every `skills/*/SKILL.md` for valid frontmatter and confirms each skill is listed in the marketplace. CI runs the same script on every push and pull request.
+This checks every `skills/*/SKILL.md` for valid frontmatter and confirms each skill is listed in the marketplace.
 
 ## Commits
 
@@ -75,4 +75,4 @@ chore: update .gitignore
 - `docs`, `ci`, `chore`, `refactor` for everything else.
 - Keep the subject lowercase and imperative, with no trailing full stop.
 
-Pull request titles follow the same format and are checked in CI, so squash merges keep a clean history.
+Pull request titles follow the same format, so squash merges keep a clean history.

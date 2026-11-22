@@ -5,4 +5,4 @@
 ## Checklist
 
 - [ ] `node scripts/validate-skills.mjs` passes
-- [ ] New skills are listed in `.claude-plugin/marketplace.json` and the README table
+- [ ] New skills are listed in `.claude-plugin/marketplace.json` and the README
