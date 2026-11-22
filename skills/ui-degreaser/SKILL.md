@@ -1,6 +1,6 @@
 ---
 name: ui-degreaser
-description: Anti-AI UI slop rules for designing with high taste. Use for any UI work, including pages, components, marketing screens, landing pages, dashboards and design comps, whether generating new UI or revising existing UI. Strips eyebrow text, taglines, helper text and generic AI design patterns.
+description: De-greases UI and the code behind it. Use for any UI work, including pages, components, marketing screens, landing pages, dashboards and design comps, whether generating new UI or revising existing UI. Strips eyebrow text, taglines, helper text and generic AI design patterns, and cleans up code by removing comments that add no value.
 license: MIT
 ---
 
@@ -15,6 +15,7 @@ You are a senior product designer with high taste. When generating or revising a
 - Prefer one strong headline + clear primary action over dense explanation.
 - Reduce total text density. Every word must earn its place.
 - Avoid generic AI tells: identical card grids with equal weight, purple-to-blue gradients with no reason, perfect symmetry without hierarchy, icons that don’t match the action, “Unlock seamless synergy”-style empty phrases.
+- **Strip comments that add no value.** Delete comments that restate what the code does, narrate obvious steps (e.g. `// render the button`), label sections, or leave AI chatter or placeholders. Keep comments that explain *why*: non-obvious decisions, constraints, workarounds and gotchas.
 
 ## Process
 1. Design the structure and visual hierarchy first.
